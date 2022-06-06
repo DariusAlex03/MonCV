@@ -1,0 +1,123 @@
+#grand_cadre{
+    border: 2px solid black;
+    width: 70%;
+    height: 130vh;
+    margin : 2% 15% 3% 15%;
+    border-radius: 30px;
+    background: white;
+    display: flex;
+}
+
+body{
+    background: rgb(211,211,211);
+    background: linear-gradient(90deg, rgba(211,211,211,0.969625350140056) 0%, rgba(101,101,101,1) 14%, rgba(107,107,107,0.9304096638655462) 49%, rgba(114,114,114,1) 86%, rgba(211,211,211,0.9808298319327731) 100%);
+}
+
+#partie_gauche img{
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+#partie_gauche {
+
+    border: 1px solid black;
+    width: 30%;
+    background-color: cadetblue;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+
+}
+
+#partie_droite{
+    border: 1px solid black;
+    width: 75%;
+    margin-left: 0%;
+    border-bottom-right-radius: 29px;
+    border-top-right-radius: 29px;
+}
+.partie_gauche_texte{
+    text-align: center;
+}
+
+#grand_cadre #partie_gauche p{
+    line-height: 6px;
+}
+
+#grand_cadre #partie_gauche br{
+    line-height: 2px;
+    margin-bottom: 1px;
+}
+
+#partie_haut_droite{
+
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-bottom: 30px;
+    border-top-right-radius: 29px;
+}
+#partie_haut_droite h3{
+    text-indent: 10%;
+}
+
+#formation{
+    height: 25%;
+    padding-left: 5% ;
+}
+
+#formation h3{
+    text-align: left;
+}
+
+.petite_ligne{
+    width: 80%;
+    margin-top: 10% ;
+    margin-bottom: 10%;
+}
+.details{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.align{
+    border: 1px solid black;
+    height: 200px;
+    width: 90%;
+    margin: 2% 5% 0% 3%;
+    padding-left: 15px;
+    line-height: 12px;
+    border-radius: 20px;
+    background: azure;
+}
+.app {
+    border: 1px solid black;
+    height: 100px;
+    width: 90%;
+    margin: 0% 5%;
+
+}
+#formapp{
+    line-height: 30px;
+
+}
+
+#forma{
+    height: 170px;
+}
+
+
+
+#down{
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    margin: 0px 30% 3% 30%;
+    border-radius: 20px;
+    background-color: darkolivegreen;
+    font-size: 20px;
+}
+
+
