@@ -1,11 +1,11 @@
 #grand_cadre{
-    border: 2px solid black;
     width: 70%;
     height: 130vh;
     margin : 2% 15% 3% 15%;
     border-radius: 30px;
     background: white;
     display: flex;
+    box-shadow: 2px 2px 12px dimgrey;
 }
 
 body{
@@ -24,7 +24,7 @@ body{
 
 #partie_gauche {
 
-    border: 1px solid black;
+
     width: 30%;
     background-color: cadetblue;
     border-top-left-radius: 29px;
@@ -33,7 +33,7 @@ body{
 }
 
 #partie_droite{
-    border: 1px solid black;
+
     width: 75%;
     margin-left: 0%;
     border-bottom-right-radius: 29px;
@@ -83,17 +83,18 @@ body{
 }
 
 .align{
-    border: 1px solid black;
     height: 200px;
     width: 90%;
-    margin: 2% 5% 0% 3%;
+    margin: 5% 5% 2% 3%;
     padding-left: 15px;
+    padding-top: 1px;
     line-height: 12px;
-    border-radius: 20px;
-    background: azure;
+    border-radius: 10px;
+    background: ghostwhite;
+    box-shadow: 1px 1px 6px dimgrey;
 }
 .app {
-    border: 1px solid black;
+
     height: 100px;
     width: 90%;
     margin: 0% 5%;
@@ -108,8 +109,6 @@ body{
     height: 170px;
 }
 
-
-
 #down{
     border: 1px solid black;
     width: 40%;
@@ -118,6 +117,32 @@ body{
     border-radius: 20px;
     background-color: darkolivegreen;
     font-size: 20px;
+}
+#projets span{
+    margin-left: 10%;
+}
+#projets a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10%;
+}
+#projets a:hover{
+    color: blue;
+}
+
+#projets h5 {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+#grdcadre_projets{
+    height: 250px;
+}
+
+#apropos div p{
+    text-indent: 25px;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 
